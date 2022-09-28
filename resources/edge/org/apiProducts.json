@@ -1,0 +1,29 @@
+[
+    {
+        "name": "demoProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "demoProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "demoProduct",
+        "displayName": "demoProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "hdfcapi-hdfcteam-demo"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]
